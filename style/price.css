@@ -1,0 +1,53 @@
+.price__wrap {
+	width: 100%;
+	padding: 150px 0 120px;
+	background: url(../img/onas6.jpg) no-repeat center/cover;
+}
+
+.price__title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	margin-bottom: 40px;
+	letter-spacing: 0.12em;
+	color: #F2C324;
+}
+
+.price {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 198.4%;
+	letter-spacing: 0.12em;
+	color: #FFFFFF;
+}
+
+.price table {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.price td {
+	padding: 3px 6px;
+}
+
+@media (max-width:950px) {
+	.price{
+		overflow-x: auto;
+	}
+	.price table {
+		font-size: 14px;
+	}
+
+	.price td {
+		padding: 0;
+	}
+}
+
+@media (max-width:460px) {
+	.price table {
+		font-size: 10px;
+	}
+}

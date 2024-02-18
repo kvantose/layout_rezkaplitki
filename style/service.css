@@ -1,0 +1,84 @@
+.service__wrap {
+	width: 100%;
+	padding: 150px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.service__wrap .container {
+	display: grid;
+	grid-gap: 0 70px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#service__wrap-1 {
+	background-image: url(../img/2pg.jpg);
+}
+
+#service__wrap-2 {
+	background-image: url('../img/stati1.jpg');
+}
+
+#service__wrap-3 {
+	background-image: url('../img/feedback.jpg');
+}
+
+#service__wrap-4 {
+	background-image: url('../img/stati1.jpg');
+}
+
+#service__wrap-5 {
+	background-image: url('../img/stati1.jpg');
+}
+
+.service__item-title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 198.4%;
+	letter-spacing: 0.12em;
+	color: #F2C324;
+	text-align: center;
+	margin-bottom: 34px;
+	text-shadow: 1px 1px #000;
+}
+
+.service__item img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	border: 5px solid #29333C;
+}
+
+#service__item-more {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width:1620px) {
+	.service__wrap .container {
+		grid-gap: 0 20px;
+	}
+
+	.service__item-title {
+		font-size: 14px;
+	}
+
+	#pc-br-1 {
+		display: none;
+	}
+}
+
+@media (max-width:1370px) {
+	.service__wrap .container {
+		grid-template-columns: 1fr;
+		grid-gap: 70px 0;
+	}
+
+	.service__item-title {
+		font-size: 20px;
+	}
+}
